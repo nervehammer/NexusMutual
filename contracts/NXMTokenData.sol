@@ -24,7 +24,7 @@ contract NXMTokenData is Iupgradable {
 
     NXMaster ms;
 
-    address masterAddress;
+    address public masterAddress;
     string public version = "NXM 0.1";
     string public name;
     string public symbol;
